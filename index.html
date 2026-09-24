@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Doce Encanto Lingerie</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#fff7fa;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(180deg,#4b001f,#8b003b);
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+header img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #ffd6e5;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:34px;
+}
+
+header p{
+    margin-top:10px;
+    color:#ffe3ee;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+    background:white;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.menu a{
+    text-decoration:none;
+    color:#8b003b;
+    font-weight:bold;
+}
+
+.banner{
+    background:#ffdce9;
+    padding:30px 20px;
+    text-align:center;
+}
+
+.banner h2{
+    color:#8b003b;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.banner p{
+    color:#444;
+}
+
+section{
+    padding:25px 0;
+}
+
+.titulo{
+    font-size:28px;
+    color:#8b003b;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+
+.carrossel{
+    display:flex;
+    gap:18px;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    padding:15px;
+}
+
+.carrossel::-webkit-scrollbar{
+    display:none;
+}
+
+.produto{
+    min-width:220px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,.12);
+    scroll-snap-align:start;
+}
+
+.produto img{
+    width:100%;
+    height:290px;
+    object-fit:cover;
+}
+
+.info{
+    padding:14px;
+}
+
+.info h3{
+    font-size:18px;
+    margin-bottom:6px;
+}
+
+.preco{
+    color:#d10063;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:12px;
+}
+
+.botao{
+    display:block;
+    text-decoration:none;
+    background:#25D366;
+    color:white;
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+footer{
+    background:#4b001f;
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+    margin-top:30px;
+}
+
+footer a{
+    color:#ffd6e5;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.jpg.JPG" alt="Logo Doce Encanto Lingerie">
+
+<h1>Doce Encanto Lingerie</h1>
+
+<p>O seu encanto começa aqui.</p>
+
+</header>
+
+<nav class="menu">
+
+<a href="#lingerie">Lingerie</a>
+<a href="#camisolas">Camisolas</a>
+<a href="#babydolls">Baby Dolls</a>
+<a href="#robes">Robes</a>
+<a href="#hobby">Hobby</a>
+
+</nav>
+
+<div class="banner">
+
+<h2>Nova Coleção 💖</h2>
+
+<p>Descubra os nossos conjuntos, camisolas e robes com elegância e conforto.</p>
+
+</div>
+
+<!-- ========================= -->
+<!--      LINGERIE             -->
+<!-- ========================= -->
+
+<section id="lingerie">
+
+<h2 class="titulo">🌹 Lingerie</h2>
+
+<div class="carrossel">
+
+<div class="produto">
+
+<img src="imagens/conjuntocecilia.jpg.JPG">
+
+<div class="info">
+<h3>Conjunto Cecília</h3>
+<p class="preco">45 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Conjunto Cecília (45€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/conjuntochanel.jpg.JPG">
+
+<div class="info">
+<h3>Conjunto Chanel</h3>
+<p class="preco">42 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Conjunto Chanel (42€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/conjuntotulebordado.jpg.JPG">
+
+<div class="info">
+<h3>Conjunto Tule Bordado</h3>
+<p class="preco">49 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Conjunto Tule Bordado (49€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/conjuntoazul.jpg.JPG">
+
+<div class="info">
+<h3>Conjunto Azul</h3>
+<p class="preco">45 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Conjunto Azul (45€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<!-- ADICIONA NOVOS LINGERIES AQUI -->
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!--      CAMISOLAS            -->
+<!-- ========================= -->
+
+<section id="camisolas">
+
+<h2 class="titulo">✨ Camisolas</h2>
+
+<div class="carrossel">
+
+<div class="produto">
+
+<img src="imagens/camisolaauroracreme.jpg.JPG">
+
+<div class="info">
+<h3>Camisola Aurora Creme</h3>
+<p class="preco">65 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar a Camisola Aurora Creme (65€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/camisolaaurorapreta.jpg.JPG">
+
+<div class="info">
+<h3>Camisola Aurora Preta</h3>
+<p class="preco">65 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar a Camisola Aurora Preta (65€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/camisolaaurorabranca.jpg.JPG">
+
+<div class="info">
+<h3>Camisola Aurora Branca</h3>
+<p class="preco">65 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar a Camisola Aurora Branca (65€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<!-- ADICIONA NOVAS CAMISOLAS AQUI -->
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!--      BABY DOLLS           -->
+<!-- ========================= -->
+
+<section id="babydolls">
+
+<h2 class="titulo">💖 Baby Dolls</h2>
+
+<div class="carrossel">
+
+<div class="produto">
+
+<img src="imagens/babydollaurora.jpg.JPG">
+
+<div class="info">
+<h3>Baby Doll Aurora</h3>
+<p class="preco">45 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Baby Doll Aurora (45€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<div class="produto">
+
+<img src="imagens/shortdollaurora.jpg.JPG">
+
+<div class="info">
+<h3>Short Doll Aurora</h3>
+<p class="preco">55 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Short Doll Aurora (55€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<!-- ADICIONA NOVOS BABY DOLLS AQUI -->
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!--         ROBES             -->
+<!-- ========================= -->
+
+<section id="robes">
+
+<h2 class="titulo">👘 Robes</h2>
+
+<div class="carrossel">
+
+<div class="produto">
+
+<img src="imagens/robeaurora.jpg.JPG">
+
+<div class="info">
+<h3>Robe Aurora</h3>
+<p class="preco">65 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Robe Aurora (65€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<!-- ADICIONA NOVOS ROBES AQUI -->
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!--         HOBBY             -->
+<!-- ========================= -->
+
+<section id="hobby">
+
+<h2 class="titulo">🌸 Hobby</h2>
+
+<div class="carrossel">
+
+<div class="produto">
+
+<img src="imagens/hobbyaurora.jpg.JPG">
+
+<div class="info">
+<h3>Hobby Aurora</h3>
+<p class="preco">55 €</p>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Quero encomendar o Hobby Aurora (55€).">
+Comprar pelo WhatsApp
+</a>
+
+</div>
+</div>
+
+<!-- ADICIONA NOVOS HOBBIES AQUI -->
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!--       SOBRE NÓS           -->
+<!-- ========================= -->
+
+<section id="sobre">
+
+<h2 class="titulo">💖 Sobre Nós</h2>
+
+<div style="padding:20px; line-height:1.8;">
+
+<p>
+Na <strong>Doce Encanto Lingerie</strong> acreditamos que toda a mulher merece sentir-se bonita,
+confiante e confortável.
+</p>
+
+<br>
+
+<p>
+Escolhemos peças elegantes, sensuais e delicadas para todos os momentos especiais.
+</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!--       CONTACTOS           -->
+<!-- ========================= -->
+
+<section id="contactos">
+
+<h2 class="titulo">📞 Contactos</h2>
+
+<div style="padding:20px;">
+
+<p><strong>WhatsApp:</strong></p>
+
+<p style="font-size:22px; color:#8b003b;">
++351 932 366 458
+</p>
+
+<br>
+
+<a class="botao"
+href="https://wa.me/351932366458?text=Olá! Gostava de fazer uma encomenda na Doce Encanto Lingerie.">
+Falar no WhatsApp
+</a>
+
+</div>
+
+</section>
+<!-- ========================= -->
+<!--         RODAPÉ            -->
+<!-- ========================= -->
+
+<footer>
+
+  <h2 style="margin-bottom:15px;">Doce Encanto Lingerie 💖</h2>
+
+  <p style="margin-bottom:10px;">
+    Elegância • Conforto • Sensualidade
+  </p>
+
+  <p style="margin-bottom:20px;">
+    Encomendas por WhatsApp
+  </p>
+
+  <a href="https://wa.me/351932366458?text=Olá! Gostava de fazer uma encomenda na Doce Encanto Lingerie.">
+    +351 932 366 458
+  </a>
+
+  <p style="margin-top:25px; font-size:14px; color:#ffd6e5;">
+    © 2025 Doce Encanto Lingerie. Todos os direitos reservados.
+  </p>
+
+</footer>
+
+</body>
+</html>
